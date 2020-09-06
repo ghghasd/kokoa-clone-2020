@@ -12,7 +12,7 @@
 @import "screens/login.css";
 @import "screens/variables.css";
 body {
-  color: #2e363e;
+  color: #080808;
   font-family: "Open Sans", sans-serif;
   height: 500vh;
 }
