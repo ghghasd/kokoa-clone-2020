@@ -7,26 +7,30 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
 /* Screens */
 @import "screens/friends.css";
 @import "screens/login.css";
 @import "screens/variables.css";
 @import "screens/find.css";
-body {
-  color: #080808;
-  font-family: "Open Sans", sans-serif;
-  height: 500vh;
-}
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "components/no-mobile.css";
 
+body {
+  color: #15171a;
+  font-family: "Open Sans", sans-serif;
+}
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
 
-.screen-header__title {
-  font-size: 32px;
-  font-weight: 600;
+a:link {
+  text-decoration: none;
 }
-
-.screen-header__icons span {
-  margin-left: 25px;
+a:visited {
+  color: #15171a;
 }
